@@ -1,0 +1,413 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.desktop{	
+  position: absolute;
+  width: 1440px;
+  height: 832px;
+}
+
+body {
+	background-color: #D5DDD1;
+}
+
+header {
+   position: absolute;
+   width: 1440px;
+   height: 35px;
+   left: 0px;
+   top: 0px;
+}
+
+nav {
+  background-color: #BDE4B7;
+  padding: 10px;
+}
+
+.main-nav {
+	float: right;
+	list-style: none;
+	margin-top: 30px;	
+}
+
+.main-nav li {
+	text-align: right;
+	display: inline-block;
+	
+}
+
+.main-nav li a {
+	color:#000000;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "roboto"; 
+	font-size: 18px;
+    line-height: 21px;
+}
+
+.main-nav li.active a {
+	border: 1px solid #1F7832;
+}
+
+.main-nav a:hover {
+	border: 1px solid #1F7832;
+}
+
+.logo img {
+	width: 150px;
+	hieght: auto;
+	float: left;	
+}
+
+.row {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.pepe {
+	position: absolute;
+	width: 1200px;
+	margin-left: 0px;
+	margin-top:0px;
+
+}
+
+.pepeillustration img {
+	
+   position: absolute;
+   width: 1264px;
+   height: 678px;
+   left: 161px;
+   top: 222px;
+}
+
+.head {
+	
+   position: absolute;
+   width: 582px;
+   height: 38px;
+   left: 266px;
+   top: 120px;
+
+   font-style: normal;
+   font-weight: normal;
+   font-size: 54px;
+   line-height: 70px;
+   display: flex;
+   align-items: right;
+   color: #1B4F24; 
+}
+
+.pepehat img {
+	position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 572px;
+    top: 300px; 
+    transform: rotate(90deg);
+	border:double;
+	border-color: #023004;
+	
+}
+
+.pepelap img{
+     position: absolute;
+     width: 299px;
+     height: 299px;
+     left: 191px;
+     top: 300px;
+	transform: rotate(90deg);
+	border:double;
+	border-color: #023004;
+
+}
+
+.pepeeye img {	
+    position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 954px;
+    top: 300px;
+    transform: rotate(270deg);
+	border:double;
+	border-color: #023004;
+}
+
+.pepesleeps img {
+	position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 572px;
+    top: 680px;
+	border:double;
+	border-color: #023004;
+}
+
+.pepeheadpose img {
+	position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 191px;
+    top: 680px;
+	border:double;
+	border-color: #023004;
+}
+
+.hand img {
+    position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 954px;
+    top: 680px;
+	transform:rotate(90deg);
+	border:double;
+	border-color: #023004;
+}
+
+.pepetreats img {
+	position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 191px;
+    top: 1060px;
+	border:double;
+	border-color: #023004;
+}
+
+.brokenleg img {
+	position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 954px;
+    top: 1060px;
+	border:double;
+	border-color: #023004;
+}
+
+.waitingsnack img {
+	position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 572px;
+    top: 1060px;
+	transform: rotate(90deg);
+	border:double;
+	border-color: #023004;
+}
+
+.pepeshower img {
+	position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 572px;
+    top: 1440px;
+	border:double;
+	border-color: #023004;
+}
+
+.hidenseek img {
+	position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 954px;
+    top: 1440px;
+	border:double;
+	border-color: #023004;
+}
+
+.hello img {
+	position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 572px;
+    top: 1820px;
+    border:double;
+	border-color: #023004;
+}
+
+.peakingout img {
+	position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 191px;
+    top: 1440px;
+	border:double;
+	border-color: #023004;
+}
+
+.location {
+	
+    position: absolute;
+    width: 620px;
+    height: 332px;
+    left: 427px;
+    top: 400px;
+
+     font-family: Rosario;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 15px;
+     line-height: 29px;
+}
+.location ul {
+	list-style-type: none;
+}
+
+.bottominfo {
+	
+    position: absolute;
+width: 560px;
+height: 403px;
+left: 427px;
+top: 666px;
+
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+.orginH h1 {
+	position: absolute;
+    width: 582px;
+    height: 38px;
+    left: 535px;
+    top: 300px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+     line-height: 73px;
+    display: flex;
+    align-items: center;
+
+    color: #1F7832;
+}
+
+.video{
+	
+position: absolute;
+width: 320px;
+height: 29px;
+left: 600px;
+top: 1300px;
+}
+
+.youtube img {
+	position: absolute;
+    width: 171px;
+    height: 116px;
+    left: 621px;
+    top: 1400px;
+}
+
+.nutrition {
+	position: absolute;
+    width: 498px;
+    height: 312px;
+left: 875px;
+top: 800px;
+
+font-family: Rosario;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 29px;
+}
+
+.foodpic {
+position: absolute;
+width: 413px;
+height: 161px;
+left: 200px;
+top: 450px;
+}
+
+.foodinfo {
+position: absolute;
+width: 620px;
+height: 332px;
+left: 439px;
+top: 900px;
+
+font-family: Rosario;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.orginH2 h1 {
+	position: absolute;
+    width: 582px;
+    height: 38px;
+    left: 550px;
+    top: 300px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+     line-height: 73px;
+    display: flex;
+    align-items: center;
+
+    color: #1F7832;
+}
+
+.h2 {
+	width: 582px;
+    height: 38px;
+    left: 550px;
+    top: 250px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+	
+}
+
+.fruits ul {
+	
+position: absolute;
+width: 620px;
+height: 332px;
+left: 700px;
+top: 1420px;
+
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 29px;
+}
+.fruits ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.fruits p {
+position: absolute;
+width: 620px;
+height: 332px;
+top: 1250px;
+left: 439px;
+	
+	 font-family: Rosario;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 15px;
+     line-height: 29px;
+}
+
+
+
+
